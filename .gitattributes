@@ -1,0 +1,5 @@
+# Batch 文件必须保持 CRLF，否则 cmd.exe 解析可能出错
+*.cmd -text
+*.bat -text
+# 其余文本文件按常规处理
+*.md   text eol=lf
